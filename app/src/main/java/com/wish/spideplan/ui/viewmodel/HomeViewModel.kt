@@ -16,8 +16,6 @@ import kotlinx.datetime.Clock
 import kotlinx.datetime.LocalDateTime
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
-import javax.inject.Inject
-
 data class HomeUiState(
     val todaysTasks: List<Task> = emptyList(),
     val overdueTasks: List<Task> = emptyList(),
@@ -29,7 +27,7 @@ data class HomeUiState(
     val error: String? = null
 )
 
-class HomeViewModel @Inject constructor(
+class HomeViewModel(
     private val taskRepository: TaskRepository,
     private val quoteRepository: QuoteRepository
 ) : ViewModel() {

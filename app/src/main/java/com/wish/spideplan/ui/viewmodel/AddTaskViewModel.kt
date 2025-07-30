@@ -15,8 +15,6 @@ import kotlinx.datetime.LocalDateTime
 import kotlinx.datetime.Clock
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
-import javax.inject.Inject
-
 data class AddTaskUiState(
     val title: String = "",
     val description: String = "",
@@ -33,7 +31,7 @@ data class AddTaskUiState(
     val editingTaskId: Long? = null
 )
 
-class AddTaskViewModel @Inject constructor(
+class AddTaskViewModel(
     private val taskRepository: TaskRepository
 ) : ViewModel() {
     

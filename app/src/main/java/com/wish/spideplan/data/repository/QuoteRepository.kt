@@ -4,11 +4,7 @@ import com.wish.spideplan.data.database.dao.QuoteDao
 import com.wish.spideplan.data.model.Quote
 import com.wish.spideplan.data.model.QuoteCategory
 import kotlinx.coroutines.flow.Flow
-import javax.inject.Inject
-import javax.inject.Singleton
-
-@Singleton
-class QuoteRepository @Inject constructor(
+class QuoteRepository(
     private val quoteDao: QuoteDao
 ) {
     

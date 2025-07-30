@@ -3,11 +3,7 @@ package com.wish.spideplan.data.repository
 import com.wish.spideplan.data.database.dao.BrainDumpDao
 import com.wish.spideplan.data.model.BrainDump
 import kotlinx.coroutines.flow.Flow
-import javax.inject.Inject
-import javax.inject.Singleton
-
-@Singleton
-class BrainDumpRepository @Inject constructor(
+class BrainDumpRepository(
     private val brainDumpDao: BrainDumpDao
 ) {
     

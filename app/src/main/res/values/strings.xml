@@ -1,3 +1,60 @@
 <resources>
     <string name="app_name">SpidePlan</string>
+    <string name="app_description">Your friendly neighborhood daily planner</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_add_task">Add Task</string>
+    <string name="nav_sleep">Sleep Tracker</string>
+    <string name="nav_brain_dump">Brain Dump</string>
+    
+    <!-- Home Screen -->
+    <string name="greeting_morning">Good morning, Spider!</string>
+    <string name="greeting_afternoon">Good afternoon, Spider!</string>
+    <string name="greeting_evening">Good evening, Spider!</string>
+    <string name="daily_motivation">🕷️ Daily Motivation</string>
+    <string name="todays_tasks">📅 Today\'s Tasks</string>
+    <string name="overdue_tasks">⚠️ Overdue Tasks</string>
+    <string name="no_tasks_today">No tasks for today</string>
+    <string name="ready_to_plan">Time to plan your day like a true Spider!</string>
+    
+    <!-- Task Management -->
+    <string name="task_title">Task Title</string>
+    <string name="task_description">Description (optional)</string>
+    <string name="task_category">Category</string>
+    <string name="task_priority">Priority</string>
+    <string name="task_scheduled_time">Scheduled Time</string>
+    <string name="task_recurring">Recurring</string>
+    <string name="task_reminder">Reminder</string>
+    <string name="save_task">Save Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="delete_task">Delete Task</string>
+    
+    <!-- Sleep Tracker -->
+    <string name="bedtime">Bedtime</string>
+    <string name="wake_time">Wake Time</string>
+    <string name="sleep_quality">Sleep Quality</string>
+    <string name="sleep_notes">Notes</string>
+    <string name="save_sleep_entry">Save Sleep Entry</string>
+    <string name="sleep_duration">Sleep Duration</string>
+    <string name="weekly_average">Weekly Average</string>
+    
+    <!-- Brain Dump -->
+    <string name="brain_dump_hint">What\'s on your mind, Spider?</string>
+    <string name="save_thought">Save Thought</string>
+    <string name="archive_thought">Archive</string>
+    <string name="delete_thought">Delete</string>
+    
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="loading">Loading...</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="try_again">Try Again</string>
+    
+    <!-- Quotes -->
+    <string name="refresh_quote">Refresh Quote</string>
+    <string name="quote_of_the_day">Quote of the Day</string>
 </resources>

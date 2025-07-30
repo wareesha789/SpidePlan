@@ -5,11 +5,7 @@ import com.wish.spideplan.data.model.Task
 import com.wish.spideplan.data.model.TaskCategory
 import kotlinx.coroutines.flow.Flow
 import kotlinx.datetime.LocalDateTime
-import javax.inject.Inject
-import javax.inject.Singleton
-
-@Singleton
-class TaskRepository @Inject constructor(
+class TaskRepository(
     private val taskDao: TaskDao
 ) {
     

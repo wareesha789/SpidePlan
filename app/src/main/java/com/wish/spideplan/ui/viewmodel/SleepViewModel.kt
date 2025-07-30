@@ -11,8 +11,6 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.datetime.*
-import javax.inject.Inject
-
 data class SleepUiState(
     val bedTime: LocalTime = LocalTime(22, 0), // Default 10 PM
     val wakeTime: LocalTime = LocalTime(7, 0), // Default 7 AM
@@ -27,7 +25,7 @@ data class SleepUiState(
     val isEntrySaved: Boolean = false
 )
 
-class SleepViewModel @Inject constructor(
+class SleepViewModel(
     private val sleepRepository: SleepRepository
 ) : ViewModel() {
     

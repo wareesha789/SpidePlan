@@ -7,11 +7,7 @@ import kotlinx.datetime.LocalDate
 import kotlinx.datetime.Clock
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.todayIn
-import javax.inject.Inject
-import javax.inject.Singleton
-
-@Singleton
-class SleepRepository @Inject constructor(
+class SleepRepository(
     private val sleepDao: SleepDao
 ) {
     
